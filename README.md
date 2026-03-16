@@ -206,9 +206,6 @@ System Health Status
 
 ---
 
-# 🏆 Smart India Hackathon Project
-
-This project was developed as part of a **Smart India Hackathon problem statement** focused on predicting **time-varying satellite navigation errors using AI/ML models**.
 
 ---
 
