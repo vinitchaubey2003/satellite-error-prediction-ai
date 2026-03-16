@@ -1,0 +1,42 @@
+.orbit-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:40px;
+}
+
+.planet{
+  width:80px;
+  height:80px;
+  background:#2563eb;
+  border-radius:50%;
+  position:absolute;
+}
+
+.orbit{
+  width:200px;
+  height:200px;
+  border:2px dashed #475569;
+  border-radius:50%;
+  position:relative;
+  animation:rotate 6s linear infinite;
+}
+
+.satellite{
+  width:20px;
+  height:20px;
+  background:#facc15;
+  border-radius:50%;
+  position:absolute;
+  top:-10px;
+  left:50%;
+}
+
+@keyframes rotate{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
